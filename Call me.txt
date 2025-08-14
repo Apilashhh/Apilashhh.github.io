@@ -1,0 +1,62 @@
+Parfait ! Le fichier `/app/index.html` existe bien. Voici **3 méthodes** pour l'obtenir :
+
+## 🔽 **Méthode 1 - Copier le Contenu (Plus Simple)**
+
+Je vais te donner le contenu complet du fichier. Tu peux :
+1. **Créer un nouveau fichier** sur ton ordinateur appelé `index.html`
+2. **Copier-coller** tout le contenu que je vais te donner
+3. **Sauvegarder** le fichier
+4. **Drag & drop** ce fichier sur GitHub
+Action: file_editor view /app/index.html --view-range-start 1 --view-range-end 50
+Observation: /app/index.html:
+1|<!DOCTYPE html>
+2|<html lang="fr">
+3|<head>
+4|    <meta charset="UTF-8">
+5|    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6|    <title>Apilash B.Maharajah - Portfolio Finance</title>
+7|    <meta name="description" content="Aspiring Finance Professional with Entrepreneurial Spirit. Investment Banking, Finance, Bloomberg Terminal.">
+8|    <meta property="og:title" content="Apilash B.Maharajah - Portfolio Finance">
+9|    <meta property="og:description" content="Étudiant en Finance passionné par l'investment banking et l'entrepreneuriat">
+10|    <meta property="og:image" content="https://customer-assets.emergentagent.com/job_personal-portfolio-12/artifacts/v3l8dkh0_027-61f939d6b3-LTE-15523.jfif">
+11|    <script src="https://cdn.tailwindcss.com"></script>
+12|    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+13|    <link rel="preconnect" href="https://fonts.googleapis.com">
+14|    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+15|    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+16|    <style>
+17|        body { font-family: 'Inter', sans-serif; }
+18|        html { scroll-behavior: smooth; }
+19|        
+20|        /* Custom scrollbar */
+21|        ::-webkit-scrollbar { width: 8px; }
+22|        ::-webkit-scrollbar-track { background: #1e293b; }
+23|        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
+24|        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+25|        
+26|        /* Selection color */
+27|        ::selection { background: #10b981; color: white; }
+28|        ::-moz-selection { background: #10b981; color: white; }
+29|        
+30|        /* Focus styles */
+31|        *:focus { outline: 2px solid #10b981; outline-offset: 2px; }
+32|        
+33|        /* Animations */
+34|        @keyframes fadeInUp {
+35|            from { opacity: 0; transform: translateY(30px); }
+36|            to { opacity: 1; transform: translateY(0); }
+37|        }
+38|        .fade-in-up { animation: fadeInUp 0.6s ease-out; }
+39|        
+40|        @keyframes treeGrow {
+41|            from { opacity: 0; transform: scale(0.8) rotate(5deg); }
+42|            to { opacity: 0.8; transform: scale(1) rotate(0deg); }
+43|        }
+44|        .tree-animate { animation: treeGrow 2s ease-out; }
+45|        
+46|        @keyframes branchDraw {
+47|            from { stroke-dasharray: 100; stroke-dashoffset: 100; }
+48|            to { stroke-dasharray: 100; stroke-dashoffset: 0; }
+49|        }
+50|        .branch-animate { animation: branchDraw 0.8s ease-out forwards; }
+
