@@ -1583,7 +1583,7 @@
         function initWizardEasterEgg() {
             const wizardEgg = document.getElementById('wizardEasterEgg');
             const dumbledoreAudio = document.getElementById('dumbledoreAudio');
-            const harryPotterBg = document.getElementById('harryPotterBg');
+            
 
             if (wizardEgg && dumbledoreAudio) {
                 wizardEgg.addEventListener('click', function() {
@@ -1591,17 +1591,7 @@
                     dumbledoreAudio.pause();
                     dumbledoreAudio.currentTime = 0;
                     
-                    if (harryPotterBg) {
-                        harryPotterBg.pause();
-                        harryPotterBg.currentTime = 0;
-                        harryPotterBg.volume = 0.1; // 10% volume for background
-                    }
-
-                    // Start background music at low volume
-                    if (harryPotterBg) {
-                        harryPotterBg.play().catch(e => console.log('Background audio failed:', e));
-                    }
-
+                    
                     // Play main audio
                     dumbledoreAudio.play().catch(e => console.log('Main audio failed:', e));
 
